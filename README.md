@@ -1,4 +1,4 @@
-# macOS Calculator Clone
+# macOS Scientific Calculator 
 # Calculator Application
 
 ## Project Overview
