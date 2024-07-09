@@ -288,7 +288,7 @@ function calculation() {
       <div className="w-1 h-1 bg-green-500"></div> */}
          {/* Textfit component for dynamically adjusting font size based on content */}
 
-         <div className="mb-36 flex gap-1 -mb-5 ml-2">
+         <div className=" flex gap-1 -mb-5 ml-2">
               <div className="w-1 h-1 bg-red-500 rounded-full w-3 h-3"></div>
               <div className="w-1 h-1 bg-yellow rounded-full w-3 h-3"></div>
               <div className="w-1 h-1 bg-green-500 rounded-full w-3 h-3"></div>
