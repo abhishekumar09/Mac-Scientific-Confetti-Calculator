@@ -30,7 +30,7 @@ The application uses the `useState` and `useEffect` hooks from React to manage t
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/utkarsh1code/MacOS-Scientific-Confetti-Calculator.git
+   git clone https://github.com/abhishekumar09/Mac-Scientific-Confetti-Calculator
 2. Install dependencies: 
    ```bash
     npm install
