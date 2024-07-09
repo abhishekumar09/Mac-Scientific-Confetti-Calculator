@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* App.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+   
+  
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+ 
+  }
+  
+  :root {
+    --bg-dark: #1a202c;
+    --bg-light: #f7fafc;
+    --text-dark: #2d3748;
+    --text-light: #e2e8f0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    padding-top: 10px;
+    
+    background-color: var(--bg-light);
+    transition: background-color 0.3s;
+  
+    
+    
+    
+    
+    
+  }
+  
+  .container.dark {
+    background-color: var(--bg-dark);
+    height: 100vh;
+   
+
+  }
+  
+ .calculator{
+  height: 30vh;
+  
+ }
+  .display {
+     width: 50vw;
+    height: 80px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+
+    
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .display.dark {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+  }
+  
+  .history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 20px;
+    overflow-x: auto;
+    
+  }
+  
+  .history h2 {
+    font-size: 20px;
+    padding: 10px;
+    color: var(--text-dark);
+    transition: color 0.3s;
+  }
+  
+ .dark h2 {
+    color: var(--text-light);
+  }
+  
+  .history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .history li {
+    background-color: #2d3748;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Grid layout for buttons */
+  .custom_grid {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    
+    
+  }
+  
+
+  
+  
+ 
+  
+  .bg-dark_grey {
+    background-color: #2d3748;
+  }
+  
+  .bg_white {
+    background-color: #575755;
+  }
+  
+  .bg-yellow {
+    background-color: #ecc94b;
+  }
+  
+  .bg-light {
+    background-color: #edf2f7;
+  }
+  
+  button:hover {
+    background-color: #a0aec0;
+  }
+  
+  .dark button {
+    background-color: #2d3748;
+    color: #e2e8f0;
+  }
+  
+  .dark .bg-yellow {
+    background-color: #d69e2e;
+  }
+  
+  .dark button:hover {
+    background-color: #4a5568;
+  }
+  
